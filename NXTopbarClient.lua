@@ -16,8 +16,8 @@ local new,text=M.new,M.text
 -- Upload tiap PNG di folder icons/ ke Roblox (Creator Hub > Assets > Decal/Image),
 -- lalu isi ID-nya di sini. Kalau masih 0, otomatis pakai emoji lama.
 local ICON_ID={
-	SETTING=0, MUSIK=0, PEMAIN=0, SHOP=0, TARI=0,
-	STICKER=0, SKY=0, FREECAM=0, SERVER=0,
+	SETTING=74362367347649, MUSIK=111168729360634, PEMAIN=107151944904052, SHOP=106726742060365, TARI=108895560112294,
+	STICKER=135468070457331, SKY=117269734118535, FREECAM=94590846432599, SERVER=0,
 }
 local function iconImage(key,parent,props)
 	local id=ICON_ID[key]
